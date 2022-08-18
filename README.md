@@ -14,8 +14,6 @@ Currently, there are guidelines for
 - [TypeScript/JavaScript](#typescriptjavascript)
 - [HTML](#html)
 - [CSS](#css)
-- [Python](#python)
-- [Go](#golang)
 
 ## Commit Guidelines
 
@@ -172,21 +170,6 @@ feat/xxx           o — o — o               \       /
 fix/xxx                                      o — o 
 ```
 
-
-## Golang
-
-All Go code should be formatted with `gofmt`. It uses tabs for indentation and blanks for alignment. Alignment assumes that an editor is using a fixed-width font. [Effective Go](https://golang.org/doc/effective_go.html) is a good reference for various syntax guidelines. The following ressources do provide additional best-practices:
-
-- [Project Layout](https://github.com/golang-standards/project-layout)
-- [50 Shades of Go](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)
-
-Any function that is exported, i.e. if its name starts with a capital letter, should be annotated to communicate intent to other developers as long as the name is not descriptive enough.
-
-Further conventions for Go need to be established and may be added to these styleguide in the future.
-
-## Python
-
-All Python code should be written to the [PEP 8 styleguide](https://www.python.org/dev/peps/pep-0008/).
 
 ## TypeScript/JavaScript
 
