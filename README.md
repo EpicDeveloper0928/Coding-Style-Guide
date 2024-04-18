@@ -1,9 +1,8 @@
-# My-coding-style
-I described my coding style.
+# Coding Style Guide for Frontend Development.
 
 This styleguide does not yet cover all potential aspects in detail — only on a high-level — but all code should be written to one of the following guides. Every line of code should appear to be written by a single person, no matter the number of contributors.
 
-At a very high-level, we want
+At a very high-level, try following rules
 - Around 100 character wide columns
 - Meaningful use of whitespace
 - Descriptive comments, especially for functions that are exported to other files.
